@@ -115,14 +115,14 @@ button {
 }
 
 /* Sections */
-.service {
+.service, .works {
   display: -ms-flexbox;
   display: flex;
   position: relative;
   margin-top: 100px;
 }
 
-.service .text {
+.service .text, .works .text {
   position: absolute;
   top: 0;
   left: 50%;
@@ -130,7 +130,7 @@ button {
   text-align: center;
 }
 
-.service h2 {
+.service h2, .works h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -181,5 +181,49 @@ button {
   top: 25%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.works {
+  background: #edeff1;
+  min-height: 1350px;
+  margin-bottom: 10px;
+}
+
+.works .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.works .box {
+  position: relative;
+  width: 300px;
+  height: 390px;
+  background: #fff;
+}
+
+.works .whitebox {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.works .whitebox p {
+  font-family: 'Noto Serif', serif;
+  color: #737373;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.works .text {
+  top: -100px;
 }
 /*# sourceMappingURL=style.css.map */
