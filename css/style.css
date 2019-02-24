@@ -1,0 +1,38 @@
+/* General */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.45px;
+  font-family: 'Raleway', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+h1 span, h3 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
