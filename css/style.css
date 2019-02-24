@@ -85,4 +85,32 @@ nav ul li a:hover {
   color: #000;
   font-weight: bold;
 }
+
+/* Button */
+button {
+  padding: 20px 50px;
+  margin-top: 60px;
+  background: #fff;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 5px;
+  color: #134d99;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 24px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
